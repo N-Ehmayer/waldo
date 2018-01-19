@@ -4,12 +4,10 @@ function makeLoadedDie() {
 
 
   return function() {
-    // var currentRoll = list[roll];
-    // roll += 1;
-    //return currentRoll;
+
     return list[roll++];
   }
-}
+};
 
 var rollLoadedDie = makeLoadedDie();
 
